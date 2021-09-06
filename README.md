@@ -123,6 +123,14 @@ for ( i = 0; i < 10; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/define-configurable-read-only-property`][@stdlib/utils/define-configurable-read-only-property]: define a configurable read-only property.
+-   [`@stdlib/utils/define-memoized-read-only-property`][@stdlib/utils/define-memoized-read-only-property]: define a memoized read-only object property.
+-   [`@stdlib/utils/define-read-only-property`][@stdlib/utils/define-read-only-property]: define a read-only property.
+
 </section>
 
 <!-- /.related -->
@@ -185,6 +193,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-define-memoized-configurable-read-only-property/main/LICENSE
 
 [mdn-define-property]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+
+<!-- <related-links> -->
+
+[@stdlib/utils/define-configurable-read-only-property]: https://github.com/stdlib-js/utils-define-configurable-read-only-property
+
+[@stdlib/utils/define-memoized-read-only-property]: https://github.com/stdlib-js/utils-define-memoized-read-only-property
+
+[@stdlib/utils/define-read-only-property]: https://github.com/stdlib-js/utils-define-read-only-property
+
+<!-- </related-links> -->
 
 </section>
 
