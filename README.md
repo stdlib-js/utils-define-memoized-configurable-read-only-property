@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@esm/index.mjs';
+import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@v0.1.0-esm/index.mjs';
 ```
 
 #### setMemoizedConfigurableReadOnly( obj, prop, fcn )
@@ -97,7 +97,7 @@ The last argument should be a synchronous function whose return value will be me
 <script type="module">
 
 import fibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci@esm/index.mjs';
-import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@esm/index.mjs';
+import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@v0.1.0-esm/index.mjs';
 
 function Foo() {
     var self;
