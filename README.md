@@ -44,7 +44,7 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
-import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@deno/mod.js';
+import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@v0.2.0-deno/mod.js';
 ```
 
 #### setMemoizedConfigurableReadOnly( obj, prop, fcn )
@@ -92,7 +92,7 @@ The last argument should be a synchronous function whose return value will be me
 
 ```javascript
 import fibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci@deno/mod.js';
-import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@deno/mod.js';
+import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@v0.2.0-deno/mod.js';
 
 function Foo() {
     var self;
