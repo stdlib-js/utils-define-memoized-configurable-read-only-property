@@ -44,6 +44,11 @@ limitations under the License.
 <!-- eslint-disable id-length -->
 
 ```javascript
+import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-define-memoized-configurable-read-only-property/tags). For example,
+
+```javascript
 import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@v0.2.2-deno/mod.js';
 ```
 
@@ -92,7 +97,7 @@ The last argument should be a synchronous function whose return value will be me
 
 ```javascript
 import fibonacci from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci@deno/mod.js';
-import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@v0.2.2-deno/mod.js';
+import setMemoizedConfigurableReadOnly from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@deno/mod.js';
 
 function Foo() {
     var self;
