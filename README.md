@@ -46,6 +46,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+setMemoizedConfigurableReadOnly = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-define-memoized-configurable-read-only-property/tags). For example,
+
+```javascript
 setMemoizedConfigurableReadOnly = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@v0.2.2-umd/browser.js' )
 ```
 
@@ -58,7 +63,7 @@ var setMemoizedConfigurableReadOnly = require( 'path/to/vendor/umd/utils-define-
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -119,7 +124,7 @@ The last argument should be a synchronous function whose return value will be me
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-fibonacci@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-memoized-configurable-read-only-property@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
